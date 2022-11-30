@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "KeanuBold";
+  src: local("KeanuBold"), url(./assets/font/KeanuBold.ttf) format("truetype");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

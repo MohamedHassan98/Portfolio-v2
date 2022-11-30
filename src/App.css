@@ -1,0 +1,23 @@
+body {
+  font-family: KeanuBold, serif;
+  cursor: url("./assets/cursor/arrowPoint.png"), auto;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #a3a3a3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00b200;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: black;
+}
