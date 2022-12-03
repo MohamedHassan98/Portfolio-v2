@@ -32,8 +32,9 @@
 
 - Home page
   - a hero, expertise, experience, and projects sections.
-- Project Details Page - a page showing showing the selected project's details and photos.
-<hr>
+- Project Details Page
+  - a page showing showing the selected project's details and photos.
+  <hr>
 
 ### 📄 Pictures of the website
 
