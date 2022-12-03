@@ -60,7 +60,7 @@ const BurgerBuilder: React.FC = () => {
           Burger Builder
         </h1>
       </AnimateDiv>
-      <div className="grid md:grid-cols-2 font-sans gap-14 text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] mb-10 lg:mb-36">
+      <div className="grid md:grid-cols-2 font-['cursive'] tracking-widest gap-14 text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] mb-10 lg:mb-36">
         <AnimateDiv type="left">
           <p>
             Burger Builder is a project based on Maximilian Schwarzmüller's

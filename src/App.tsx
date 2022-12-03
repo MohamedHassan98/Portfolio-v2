@@ -29,6 +29,7 @@ function App() {
           <Route path="/trillo" element={<Trillo />} />
           <Route path="/old-portfolio" element={<OldPortfolio />} />
           <Route path="/spotify-mimic" element={<SpotifyMimic />} />
+          <Route path="/*" element={<Homepage />} />
         </Routes>
       </Router>
       <ScrollButton />

@@ -121,18 +121,18 @@ const Work: React.FC = () => {
                 </figure>
               </a>
               <div className="card-body group-hover:bg-[#00b200] rounded-b-lg">
-                <h2 className="card-title text-[5vw] md:text-[3vw] lg:text-[2vw] xl:text-[1.75vw] text-[#00b200] group-hover:text-black">
+                <h2 className="card-title text-[5vw] md:text-[3vw] lg:text-[2vw] xl:text-[1.75vw] text-[#00b200] group-hover:text-black leading-10">
                   <a href={workItem.href} className="cursor-green-pointer">
                     {workItem.name}
                   </a>
                 </h2>
-                <p className="text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] tracking-widest leading-snug group-hover:text-black">
+                <p className="text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] leading-snug group-hover:text-black font-['cursive'] tracking-widest">
                   {workItem.description}
                 </p>
                 <div className="flex justify-evenly flex-wrap content-center align gap-y-4">
                   <a
                     href={workItem.href}
-                    className="leading-10 rounded-3xl relative text-center tracking-widest uppercase bg-[#00b200] px-4 lg:px-0 xl:px-4 group-hover:bg-black cursor-green-pointer"
+                    className="leading-10 rounded-3xl relative text-center tracking-widest uppercase bg-[#00b200] px-4 lg:px-0 xl:px-4 group-hover:bg-black cursor-green-pointer font-['cursive'] font-bold"
                   >
                     Show Project
                   </a>

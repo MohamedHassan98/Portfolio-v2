@@ -1,4 +1,7 @@
 import ReactTooltip from "react-tooltip";
+import Lottie from "lottie-react";
+import githubButton from "../githubButton.json";
+import liveButton from "../liveButton.json";
 import SpotifyFrame from "../assets/SpotifyMimic/DeviceFrame.png";
 import TypeScriptLogo from "../assets/ExpertiseLogos/TypeScriptLogo.webp";
 import ReactLogo from "../assets/ExpertiseLogos/ReactLogo.webp";
@@ -65,17 +68,43 @@ const SpotifyMimic: React.FC = () => {
           Spotify Mimic
         </h1>
       </AnimateDiv>
-      <div className="grid md:grid-cols-2 font-sans gap-14 text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] mb-10 lg:mb-36">
+      <div className="grid md:grid-cols-2 font-['cursive'] tracking-widest gap-14 text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] mb-10 lg:mb-36">
         <AnimateDiv type="left">
           <p>
             Spotify Mimic is a project based on being a website that is close to
-            Spotify, built using TypeScript, HTML, CSS, Tailwind, React and
-            Redux. The application is a single page application as well as it
-            implements routing using React Router.
+            Spotify, built using Vite, TypeScript, HTML, CSS, Chakra UI, React,
+            and Redux Toolkit. The application is a single page application and
+            is Mobile Responsive. The application also implements routing using
+            React Router.
           </p>
-          <p className="text-red-800 font-bold">
-            Project is still under development.
+          <p className="text-[#00b200] font-bold">
+            Available Below: Github Repo, Live Demo, and Screenshots of the
+            Project.
           </p>
+          <p className="text-red-600 font-bold">
+            Please read the note section of the README file on Github before
+            using the Live Demo
+          </p>
+          <div className="flex items-center gap-x-10">
+            <a
+              className="cursor-green-pointer"
+              href="https://github.com/MohamedHassan98/Spotify-Mimic"
+              target="_blank"
+            >
+              <Lottie
+                className="w-20"
+                animationData={githubButton}
+                loop={true}
+              />
+            </a>
+            <a
+              className="cursor-green-pointer"
+              href="https://mimic-spotify.netlify.app/"
+              target="_blank"
+            >
+              <Lottie className="w-20" animationData={liveButton} loop={true} />
+            </a>
+          </div>
         </AnimateDiv>
         <AnimateDiv type="right">
           <div className="flex flex-row flex-wrap gap-8 md:justify-center items-center">
