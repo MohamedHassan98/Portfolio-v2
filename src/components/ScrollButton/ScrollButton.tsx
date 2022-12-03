@@ -53,8 +53,8 @@ const ScrollButton = () => {
     <button
       onClick={scrollToTop}
       className={`fixed w-20 h-20 right-2 bottom-2 z-10 cursor-green-pointer ${
-        visible && scrollDirection === "scrolling up" ? "inline" : "hidden"
-      } ${visible ? "lg:inline" : "lg:hidden"}`}
+        visible ? "inline" : "hidden"
+      }`}
     >
       <Lottie animationData={scrollUp} loop={true} />
     </button>

@@ -126,13 +126,13 @@ const Work: React.FC = () => {
                     {workItem.name}
                   </a>
                 </h2>
-                <p className="text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] leading-snug group-hover:text-black font-['cursive'] tracking-widest">
+                <p className="text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] leading-snug group-hover:text-black font-mono tracking-widest">
                   {workItem.description}
                 </p>
                 <div className="flex justify-evenly flex-wrap content-center align gap-y-4">
                   <a
                     href={workItem.href}
-                    className="leading-10 rounded-3xl relative text-center tracking-widest uppercase bg-[#00b200] px-4 lg:px-0 xl:px-4 group-hover:bg-black cursor-green-pointer font-['cursive'] font-bold"
+                    className="leading-10 rounded-3xl relative text-center tracking-widest uppercase bg-[#00b200] px-4 lg:px-0 xl:px-4 group-hover:bg-black cursor-green-pointer font-mono font-bold"
                   >
                     Show Project
                   </a>

@@ -105,7 +105,7 @@ const Expertise: React.FC = () => {
             </span>
             <br /> Development
           </h2>
-          <h3 className="font-['cursive'] tracking-widest text-[4vw] md:text-[2.8vw] lg:text-[1.5vw] xl:text-[1.25vw]">
+          <h3 className="font-mono tracking-widest text-[4vw] md:text-[2.8vw] lg:text-[1.5vw] xl:text-[1.25vw]">
             Experienced in both functional and OOP: C++, Python, JavaScript,
             TypeScript.
           </h3>
@@ -124,7 +124,7 @@ const Expertise: React.FC = () => {
             <br /> Development
           </h2>
           <div>
-            <h3 className="font-['cursive'] tracking-widest text-[4vw] md:text-[2.8vw] lg:text-[1.5vw] xl:text-[1.25vw]">
+            <h3 className="font-mono tracking-widest text-[4vw] md:text-[2.8vw] lg:text-[1.5vw] xl:text-[1.25vw]">
               Passionate about creating websites. Building them using HTML, CSS,
               JS, TS, and React.
             </h3>

@@ -68,7 +68,7 @@ const WikiMovies: React.FC = () => {
         backgroundImage:
           "linear-gradient(to right, #222430, #232430, #252430, #26252f, #27252f, #27252e, #26242e, #26242d, #24232c, #22222c, #20222b, #1e212a)",
       }}
-      className="text-white px-8 md:px-16 selection:bg-[#00b20036] pb-8"
+      className="text-white px-8 md:px-16 selection:bg-[#00b20036] pb-8 overflow-x-hidden"
     >
       <img
         src={WikiMoviesFrame}
@@ -79,7 +79,7 @@ const WikiMovies: React.FC = () => {
           WikiMovies
         </h1>
       </AnimateDiv>
-      <div className="grid md:grid-cols-2 font-['cursive'] tracking-widest gap-14 text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] mb-10 lg:mb-36">
+      <div className="grid md:grid-cols-2 font-mono tracking-widest gap-14 text-[4vw] md:text-[2vw] lg:text-[1.25vw] xl:text-[1vw] mb-10 lg:mb-36">
         <AnimateDiv type="left">
           <p>
             WikiMovies is a project based on movies, tv shows and cast, built

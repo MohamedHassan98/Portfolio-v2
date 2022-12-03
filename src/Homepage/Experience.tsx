@@ -53,7 +53,7 @@ const Experience: React.FC = () => {
             </svg>
           </a>
         </div>
-        <div className="collapse-content rounded-box bg-gradient-to-r from-[#16222e] to-[#131b26] font-['cursive'] tracking-widest">
+        <div className="collapse-content rounded-box bg-gradient-to-r from-[#16222e] to-[#131b26] font-mono tracking-widest">
           <div className="mt-8 text-[4vw] md:text-[2.8vw] lg:text-[1.5vw] xl:text-[1vw] flex flex-col">
             <p className="flex flex-row">
               <svg
